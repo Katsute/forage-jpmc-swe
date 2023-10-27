@@ -1,5 +1,26 @@
 {
     "image": "python:3",
+    "customizations": {
+        "codespaces": {
+            "repositories": {
+                "Katsute/forage-jpmc-swe-task-1": {
+                    "permissions": {
+                        "contents": "write"
+                    }
+                },
+                "Katsute/forage-jpmc-swe-task-2": {
+                    "permissions": {
+                        "contents": "write"
+                    }
+                },
+                "Katsute/forage-jpmc-swe-task-3": {
+                    "permissions": {
+                        "contents": "write"
+                    }
+                }
+            }
+        }
+    },
     "features": {
         "ghcr.io/devcontainers/features/node:1": {
             "version": "18",
