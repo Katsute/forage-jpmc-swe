@@ -6,7 +6,7 @@
             "nodeGypDependencies": false
         }
     },
-    "postAttachCommand": "git submodule update --init",
+    "postAttachCommand": "git submodule update --init; cd forage-jpmc-swe-task-1; pip install -r requirements.txt; cd ../forage-jpmc-swe-task-2; npm i; cd ../forage-jpmc-swe-task-3; npm i; cd ../",
     "shutdownAction": "stopContainer",
     "forwardPorts": [8080]
 }
