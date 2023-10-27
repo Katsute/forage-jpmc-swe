@@ -1,5 +1,0 @@
-{
-    "image": "python:3",
-    "postAttachCommand": "git submodule update --init",
-    "shutdownAction": "stopContainer"
-}
